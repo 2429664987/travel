@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.mapper.INtroductionMapper">
+	<!-- 探险简介 list列表 数据 -->
+	<select id="queryintroductionList" resultType="Txintroduction">
+		select * from txintroduction 
+	</select>
+	<select id="querybanners" resultType="Banner">
+		select * from banner 
+	</select>
+	
+	
+</mapper>

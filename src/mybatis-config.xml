@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>	
+	<typeAliases>
+		<!-- type为类的全路径 alias为别名 -->
+		<!-- 解释： 设置   向SQL语句内传参实体类 的路径   或   包名 -->		
+		<package name="com.model"/>
+		
+	</typeAliases>	
+</configuration>
